@@ -78,7 +78,7 @@ const Footer = () => {
                                 </a>
                             </li>
                         </ul>
-                        <span className="footer_copyright">&copy; Richard Welling 2022. All rights reserved.Testing</span>
+                        <span className="footer_copyright">&copy; Richard Welling 2022. All rights reserved.</span>
                 </div>
             </div>
         </footer>

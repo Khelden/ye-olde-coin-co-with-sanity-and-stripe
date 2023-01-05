@@ -32,6 +32,9 @@ const Navigation = () => {
                         </li>
                     </ul>
                 </div>
+                {/*Regarding the below, it has been commented out to remove the shopping cart functionality, 
+                which is not used in this build. */}
+                {/*
                 <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
                             <AiOutlineShoppingCart />
                             <span className="cart-item-qty">{totalQuantities}</span>

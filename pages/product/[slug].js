@@ -26,6 +26,7 @@ const ProductDetails = ({ product, products }) => {
                 <h4>Details:</h4>
                 <p>{details}</p>
                 <p className="price">${price}</p>
+                {/* Below section has been commented out to remove the shopping cart functionality, as we will not be using Stripe in this build.}
                 <div className="quantity">
                     <h3>Quantity:</h3>
                     <p className="quantity-desc">
@@ -38,6 +39,7 @@ const ProductDetails = ({ product, products }) => {
                     <button type="button" className="add-to-cart" onClick={() => onAdd(product, qty)}>Add to Cart</button>
                     <button type="button" className="buy-now" onClick={handleBuyNow}>Buy Now</button>
                 </div>
+  */}
             </div>
         </div>
     </div>
